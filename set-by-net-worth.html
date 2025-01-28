@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudioPay</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="./manifest.json" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>StudioPay</h1>
+      <h2>Price by Artist</h2>
+
+      <label for="desired-income">Enter your desired net income:</label><br />
+      <input
+        type="number"
+        id="desired-income"
+        min="0"
+        max="10000"
+        value="700"
+      />
+
+      <label for="first-session-price"
+        >Enter the first session price (without fee):</label
+      ><br />
+      <input
+        type="number"
+        id="first-session-price"
+        min="0"
+        max="10000"
+        value="500"
+      />
+
+      <div class="result">
+        <p>
+          First session price (with fee):
+          <span id="first-session-price-fee">650</span>
+        </p>
+        <p>
+          Second session price (with fee):
+          <span id="second-session-price-fee">150</span>
+        </p>
+        <p>
+          Total price (Tattoo Price + Fees): <span id="total-price">800</span>
+        </p>
+        <p>Net income: <span id="net-income">700</span></p>
+      </div>
+
+      <!-- Link to the other page -->
+      <a href="index.html"><button>Price by Customer</button></a>
+    </div>
+
+    <script src="set-by-net-worth.js"></script>
+  </body>
+</html>

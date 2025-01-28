@@ -3,30 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Slider Calculation</title>
+    <title>StudioPay</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="manifest" href="./manifest.json" />
   </head>
   <body>
     <div class="container">
       <h1>StudioPay</h1>
+      <h2>Price by Customer</h2>
 
-      <label for="input-number">Enter a number (x) from 0 to 10,000:</label
+      <label for="tattoo-price"
+        >Enter the tattoo price asked by the customer:</label
       ><br />
-      <input type="number" id="input-number" min="0" max="10000" value="1000" />
+      <input type="number" id="tattoo-price" min="0" max="10000" value="1000" />
 
       <div class="slider-container">
-        <label for="range-slider">Set the price for the first session:</label
-        ><br />
-        <input type="range" id="range-slider" min="0" max="1000" value="500" />
-        <output id="slider-value">500</output>
+        <label for="session-price">Set the first session price:</label><br />
+        <input
+          type="number"
+          id="session-price"
+          min="0"
+          max="10000"
+          value="500"
+        />
       </div>
 
       <div class="result">
-        <p>Studio pay I = <span id="result-a">150</span></p>
-        <p>Studio pay II = <span id="result-b">150</span></p>
-        <p>Total amount to pay: <span id="total-amount">300</span></p>
+        <p>First session fee = <span id="first-session-pay">150</span></p>
+        <p>Second session fee = <span id="second-session-pay">150</span></p>
+        <p>
+          Total price (Tattoo Price + Fees): <span id="total-amount">1000</span>
+        </p>
+        <p>Net worth (Tattoo Price - Fees): <span id="net-worth">700</span></p>
       </div>
+
+      <div class="tip">
+        <p>
+          <strong>Tip:</strong> The best net worth possible is when the session
+          price is 0. In this case, the net worth would be:
+          <span id="best-net-worth">1000</span>
+        </p>
+      </div>
+
+      <!-- Link to the other page -->
+      <a href="set-by-net-worth.html"><button>Price by Artist</button></a>
     </div>
 
     <script src="script.js"></script>
