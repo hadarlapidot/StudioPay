@@ -6,11 +6,11 @@ StudioPay is a web app designed to help tattoo artists calculate the best pricin
 
 - Calculate the tattoo price based on session prices and studio fees.
 
-[main page](screenshot_index.jpeg)
+![main page](screenshot_index.jpeg)
 
 - Calculate the tattoo price based on desired income from.
 
-[by income](Decide-by-income-screenshot.jpeg)
+![by income](Decide-by-income-screenshot.jpeg)
 
 - See the total price the customer will pay and the artist's net worth after fees.
 - Get the best possible net worth based on session pricing.
