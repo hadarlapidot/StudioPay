@@ -27,7 +27,8 @@ function calculateResults() {
   netWorth.textContent = net;
 
   // Best net worth when session price is 0
-  const bestNet = (x - 650).toFixed(2); // Best net worth when session price is 0 and studio fees are 650
+  const maxFee = Math.min(650, 0.3 * x);
+  const bestNet = x - maxFee; // Best net worth when session price is 0 and studio fees are 650
   bestNetWorth.textContent = bestNet;
 }
 
