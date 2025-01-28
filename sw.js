@@ -8,6 +8,8 @@ const urlsToCache = [
   "./manifest.json", // Web app manifest
   "./heart_192.png", // Icon (update if changed)
   "./heart_512.png", // Icon (update if changed)
+  "./screenshot_index.jpeg", // screen shot depicts the general app look
+  "./Decide-by-income-screenshot", // screen shot depicts the decide by income page
 ];
 
 self.addEventListener("install", (event) => {
