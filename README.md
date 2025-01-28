@@ -30,8 +30,8 @@ Navigate to the "Price by Artist" page to customize the desired income and sessi
 
 ## Contact
 
-Feel free to contact me via:
+Feel free to reach out to me through any of the following channels:
 
-_Name_: Hadar Lapidot
-_Email_: HadarLapidot@Gmail.com
-_LinkedIn_: [Hadar Lapidot - LinkedIn](www.linkedin.com/in/hadar-lapidot-608484186)
+- **Name**: Hadar Lapidot
+- **Email**: [HadarLapidot@Gmail.com](mailto:HadarLapidot@Gmail.com)
+- **LinkedIn**: [Hadar Lapidot - LinkedIn](https://www.linkedin.com/in/hadar-lapidot-608484186)
