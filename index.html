@@ -11,7 +11,7 @@
     <div class="container">
       <h1>StudioPay</h1>
       <h2>Price by Customer</h2>
-
+      <!-- Input -->
       <label for="tattoo-price"
         >Enter the tattoo price asked by the customer:</label
       ><br />
@@ -19,18 +19,16 @@
 
       <div class="slider-container">
         <label for="session-price">Set the first session price:</label><br />
-        <input
-          type="number"
-          id="session-price"
-          min="0"
-          max="10000"
-          value="500"
-        />
+        <input type="number" id="session-price" min="0" />
       </div>
 
+      <!-- Error message -->
+      <span id="error-msg" style="color: red"></span>
+
+      <!-- Results -->
       <div class="result">
-        <p>First session fee = <span id="first-session-pay">150</span></p>
-        <p>Second session fee = <span id="second-session-pay">150</span></p>
+        <p>First session fee = <span id="first-session-fee">150</span></p>
+        <p>Second session fee = <span id="second-session-fee">150</span></p>
         <p>
           Total price (Tattoo Price + Fees): <span id="total-amount">1000</span>
         </p>
